@@ -1,0 +1,278 @@
+{
+  "token": "42_cv9jgi6na5htuh8iaobj",
+  "response": [
+    {
+      "scheme_id": "1",
+      "scheme_name": "default",
+      "scheme_desc": "this is the default schemes : 100% on approve",
+      "milestones": [
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "100"
+        }
+      ],
+      "milestones_num": 1
+    },
+    {
+      "scheme_id": "2",
+      "scheme_name": "40-60",
+      "scheme_desc": "This is a custom scheme: 40% on accept, 60% on approve",
+      "milestones": [
+        {
+          "name": "Advance",
+          "deliverable": "None",
+          "milestone_type": "1",
+          "percent": "40"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "60"
+        }
+      ],
+      "milestones_num": 2
+    },
+    {
+      "scheme_id": "90",
+      "scheme_name": "Payment scheme for another collab test(1234)",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "Advance",
+          "deliverable": "None",
+          "milestone_type": "1",
+          "percent": "40"
+        },
+        {
+          "name": "cdcf",
+          "deliverable": "ddd",
+          "milestone_type": "4",
+          "percent": "30"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "30"
+        }
+      ],
+      "milestones_num": 3
+    },
+    {
+      "scheme_id": "78",
+      "scheme_name": "Website Overview + PM Testimonial",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "on accept",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "20"
+        },
+        {
+          "name": "inwork",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "20"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "60"
+        }
+      ],
+      "milestones_num": 3
+    },
+    {
+      "scheme_id": "85",
+      "scheme_name": "Payment scheme for test multi files upload(1182)",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "on accept",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "20"
+        },
+        {
+          "name": "e",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "6"
+        },
+        {
+          "name": "2",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "3"
+        },
+        {
+          "name": "f",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "12"
+        },
+        {
+          "name": "inwork",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "20"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "39"
+        }
+      ],
+      "milestones_num": 6
+    },
+    {
+      "scheme_id": "75",
+      "scheme_name": "Website Overview + PM Testimonial",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "Advance",
+          "deliverable": "",
+          "milestone_type": "1",
+          "percent": "10"
+        },
+        {
+          "name": "11",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "10"
+        },
+        {
+          "name": "22",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "30"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "50"
+        }
+      ],
+      "milestones_num": 4
+    },
+    {
+      "scheme_id": "71",
+      "scheme_name": "erwrw",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "accept",
+          "deliverable": "",
+          "milestone_type": "1",
+          "percent": "10"
+        },
+        {
+          "name": "editor defined 1",
+          "deliverable": "done transcoding",
+          "milestone_type": "4",
+          "percent": "10"
+        },
+        {
+          "name": "2nd preview",
+          "deliverable": "",
+          "milestone_type": "4",
+          "percent": "10"
+        },
+        {
+          "name": "approve",
+          "deliverable": "",
+          "milestone_type": "3",
+          "percent": "70"
+        }
+      ],
+      "milestones_num": 4
+    },
+    {
+      "scheme_id": "68",
+      "scheme_name": "erwrw",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "Advance",
+          "deliverable": "",
+          "milestone_type": "1",
+          "percent": "23"
+        },
+        {
+          "name": "2333",
+          "deliverable": "33",
+          "milestone_type": "4",
+          "percent": "22"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "55"
+        }
+      ],
+      "milestones_num": 3
+    },
+    {
+      "scheme_id": "63",
+      "scheme_name": "jjuj?",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "Advance",
+          "deliverable": "None",
+          "milestone_type": "1",
+          "percent": "10"
+        },
+        {
+          "name": "asasd",
+          "deliverable": "asdasd",
+          "milestone_type": "4",
+          "percent": "30"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "60"
+        }
+      ],
+      "milestones_num": 3
+    },
+    {
+      "scheme_id": "62",
+      "scheme_name": "kgj",
+      "scheme_desc": null,
+      "milestones": [
+        {
+          "name": "Advance",
+          "deliverable": "None",
+          "milestone_type": "1",
+          "percent": "10"
+        },
+        {
+          "name": "asasd",
+          "deliverable": "asdasd",
+          "milestone_type": "4",
+          "percent": "30"
+        },
+        {
+          "name": "Job Approved",
+          "deliverable": "Approve",
+          "milestone_type": "3",
+          "percent": "60"
+        }
+      ],
+      "milestones_num": 3
+    }
+  ],
+  "process_time": 0.0110728740692
+}

@@ -1,0 +1,21 @@
+{
+  "token": null,
+  "response": [
+    {
+      "id": "1",
+      "name": "Advance",
+      "description": "Auto on proposal accept"
+    },
+    {
+      "id": "3",
+      "name": "Approve",
+      "description": "Auto - rest of sum on job completion approval"
+    },
+    {
+      "id": "4",
+      "name": "",
+      "description": "all other types of milestones should be requested by editors"
+    }
+  ],
+  "process_time": 0.00193500518799
+}

@@ -1,0 +1,119 @@
+<div class='header-container' ng-include src="'assets/js/views/header.html'"></div>
+<div class="main-container media-page sh-container">
+	<div class="project-link">
+		<span>Projects > Nadav's bday</span>
+	</div>
+	<div class="full-width">
+		<img src="assets/img/avata.png" class="avata-img"/>
+		<div class="left-panel left-menu float-left">
+			<ul>
+				<li>
+					<a href="#/propose" title="Project Details"><img src="assets/img/propose.png"/></a>
+				</li>
+				<li>
+					<a href="#/media" title="Media"><img src="assets/img/media_active.png"/></a>
+				</li>
+				<li>
+					<a href="#/chat" title="Feed"><img src="assets/img/chat.png"/></a>
+				</li>
+				<li>
+					<a href="#/collabo" title="Collaborators"><img src="assets/img/collabo.png"/></a>
+				</li>
+			</ul>
+		</div>
+		<div class="body-panel float-left">
+			<div class="project-header">
+				<div class="project-title">
+					<div class="float-left">
+						<img src="assets/img/clock.png"/>
+						<span>Project: Nadav's Birthday</span>
+					</div>
+					<div class="float-right">
+						<ul class="user-lists">
+							<li ng-repeat="user in user_show_list">
+								<img class="user-img"  ng-attr-title="{{getNameFromEmail(user.Name)}}" ng-src="{{user.picture}}"/>
+							</li>
+							<li ng-if="avata_hidden_flag == true">
+								<span class="user-more" ng-attr-title="{{user_hide_string}}">...more</span>
+							</li>
+						</ul>
+						<div class="mobile-menu-img" ng-click="mobile_menu = !mobile_menu">
+						</div>
+						<ul class='mobile-menu-ul' ng-style="(mobile_menu == true) &amp;&amp; {'height': '104px' } || (mobile_menu == false) &amp;&amp; {'height': '0px'}">
+							<li>
+								<a href="#/propose">Propose</a>
+							</li>
+							<li>
+								<a href="#/media">Media</a>
+							</li>
+							<li>
+								<a href="#/chat">Chat</a>
+							</li>
+							<li>
+								<a href="#/collabo">Collabo</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- project-title !-->
+				<div class="project-desc">
+					<img src="assets/img/i.png"/>
+					<span>Posted to Arik Diamant, <u><i>Complete Project</i></u></span>
+				</div><!-- project-desc !-->
+				<div class="project-content">
+					<div class="full-width clearfix">
+						<div class='col-half mobile-col-half'>
+							<div class="drag-content full-width clearfix" >
+								Drag files or click here to attach new media
+								<input class="file-upload full-width" type="file"   onchange="angular.element(this).scope().getFileName(this)" >
+							</div>
+						</div>
+					</div><!-- full-width -->
+
+					<div class='full-width clearfix media-content'>
+						<div class="media-item clearfix" ng-repeat="video in medialist.videos">
+							<div class="full-width media-area" >
+								<div class="black-screen">
+									<img src="assets/img/playbtn.png" id="img{{video.id}}" ng-click="playVideo(video.id)"/>
+								</div>
+								<video class="myvideo" id="video{{video.id}}" style="width:100%;" preload="metadata">
+					              	<source ng-src="{{video.direct_link}}">
+					            	<p>Your browser does not support the HTML5 Video Element</p>
+					        	</video>
+							</div>
+							<div class='full-width media-desc clearfix'>
+								<div class="media-desc-text">
+									<input type="text" class="media-author-name" value="Nadav's Birthday final -mp4" ng-keypress="onEnterName($event)" />
+									<p>Last Annotated by Nelis 3 hours ago</p>
+								</div>
+								<div class="media-desc-action">	
+									<div class="media-share-img"></div>
+									<div class="media-download-img"></div>
+									<div class="media-echo-img"></div>
+								</div>
+							</div>
+						</div>
+						<div class="media-item clearfix" ng-repeat="image in medialist.images">
+							<div class="full-width media-area">
+								<img ng-src="{{image.direct_link}}" style="width: 100%"/>
+							</div>
+							<div class='full-width media-desc clearfix'>
+								<div class="media-desc-text">
+									<input type="text" class="media-author-name" value="Nadav's Birthday final - image" ng-keypress="onEnterName($event)" />								
+									<p>Last Annotated by Nelis 3 hours ago</p>
+								</div>
+								<div class="media-desc-action">	
+									<div class="media-share-img"></div>
+									<div class="media-download-img"></div>
+									<div class="media-echo-img"></div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+				</div><!-- project-content !-->
+			</div><!-- project-header !-->
+		</div><!-- body-panel !-->
+	</div><!-- full-width !-->
+
+</div>

@@ -1,0 +1,160 @@
+<div class='header-container' ng-include src="'assets/js/views/header.html'"></div>
+<div class="main-container sh-container">
+	<div class="project-link">
+		<span>Projects > Nadav's bday</span>
+	</div>
+	<div class="full-width">
+		<img src="assets/img/avata.png" class="avata-img"/>
+		<div class="left-panel left-menu float-left">
+			<ul>
+				<li>
+					<a href="#/propose" title="Project Details"><img src="assets/img/propose_active.png"/></a>
+				</li>
+				<li>
+					<a href="#/media" title="Media"><img src="assets/img/media.png"/></a>
+				</li>
+				<li>
+					<a href="#/chat" title="Feed"><img src="assets/img/chat.png"/></a>
+				</li>
+				<li>
+					<a href="#/collabo" title="Collaborators"><img src="assets/img/collabo.png"/></a>
+				</li>
+			</ul>
+		</div>
+		<div class="body-panel float-left">
+			<div class="project-header">
+				<div class="project-title">
+					<div class="float-left">
+						<img src="assets/img/clock.png"/>
+						<span>Project: Nadav's Birthday</span>
+					</div>
+					<div class="float-right">
+						<ul class="user-lists">
+							<li ng-repeat="user in user_show_list">
+								<img class="user-img"  ng-attr-title="{{getNameFromEmail(user.Name)}}" ng-src="{{user.picture}}"/>
+							</li>
+							<li>
+								<span class="user-more" ng-attr-title="{{user_hide_string}}">...more</span>
+							</li>
+						</ul>
+						<div class="mobile-menu-img" ng-click="mobile_menu = !mobile_menu">
+						</div>
+						<ul class='mobile-menu-ul' ng-style="(mobile_menu == true) &amp;&amp; {'height': '104px' } || (mobile_menu == false) &amp;&amp; {'height': '0px'}">
+							<li>
+								<a href="#/propose">Propose</a>
+							</li>
+							<li>
+								<a href="#/media">Media</a>
+							</li>
+							<li>
+								<a href="#/chat">Chat</a>
+							</li>
+							<li>
+								<a href="#/collabo">Collabo</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- project-title !-->
+				<div class="project-desc">
+					<img src="assets/img/i.png"/>
+					<span>Posted to Arik Diamant, <u><i>Complete Project</i></u></span>
+				</div><!-- project-desc !-->
+				<div class="project-content">
+					<div class="full-width clearfix">
+						<div class="input-proect">
+							<div class="input-textarea">
+								<textarea class="message-tarea" placeholder="Please enter the details of your proposal here" ng-model="proposal_txt"></textarea>
+							</div>
+						</div>
+					</div><!-- full-width -->
+					<div class="full-width proposal-content clearfix">
+						<div class="col-p-4">
+							<input type="text" class="proposal_value" placeholder="Price"/>
+							<p>
+								In USD, Your Net after Videocutters commission: $3.00(Before any additional Paypal fees)
+							</p>
+						</div>
+						<div class="col-p-4">
+							<input type="text" class="proposal_value" placeholder="Time"/>
+							<p>
+								Will complete in number of days
+							</p>
+						</div>
+						<div class="col-p-4">
+							<input type="text" class="proposal_value" placeholder="Validity"/>
+							<p>
+								Offer will be valid for number of days
+							</p>
+						</div>
+					</div><!-- proposal-content -->
+					<div class="full-width clearfix">
+						<ul class="payment-selection ">
+							<li ng-class="{'active': switch_payment == true}" ng-click="switch_payment = true">
+								<span>Full Payment when project is approved</span>
+							</li>
+							<li ng-class="{'active': switch_payment == false}" ng-click="switch_payment = false">
+								<span>Use Payment milestones</span>
+							</li>
+						</ul>
+					</div><!-- full-width -->
+					<div class="full-width clearfix" ng-if="switch_payment == false">
+						<select class="select-scheme" ng-model='scheme_id' ng-options='scheme.scheme_id as scheme.scheme_name for scheme in scheme_list' ng-change="changeScheme(scheme_id)">
+							<option value="">Select Milestone Scheme...</option>
+						<!--<select class="select-scheme" ng-model='scheme_id' ng-change="changeScheme(1)">
+							<option ng-repeat='scheme in scheme_list' data-desc="{scheme.scheme_desc}"  data-milestones-num="{scheme.milestones_num}" value="{scheme.scheme_id}">
+								{{scheme.scheme_name}}
+							</option>-->
+						</select>
+						<div class="full-width milestone-list milestone-header clearfix">
+							<div>
+								<div class="milestone-no"></div>
+								<div class="milestone-name">Milestone Name</div>
+								<div class="milestone-type">Milestone Type</div>
+								<div class="milestone-deliverable">Deliverables & Payment-optional</div>
+								<div class="milestone-value"></div>
+								<div class="milestone-action"></div>
+							</div>
+						</div>
+						<div class="full-width milestone-list milestone-content clearfix">
+							<div ng-repeat="milestone in milestones" class="full-width clearfix">
+								<div class="milestone-no">{{milestone.index}}</div>
+								<div class="milestone-name">
+									<input type="text" ng-model="milestone.name" />
+								</div>
+								<div ng-if="milestone.last_flag" class="milestone-type">
+									<select>
+										<option value="3">Approve</option>
+									</select>
+								</div>
+								<div ng-if="milestone.last_flag == false" class="milestone-type">
+									<select>
+										<option value="1">Advanced</option>
+										<option value="4">Custome</option>
+									</select>
+								</div>
+								<div class="milestone-deliverable">
+									<input type='text' ng-model="milestone.deliverable" />
+								</div>	
+								<div class="milestone-value">
+									<input ng-if="milestone.last_flag == false"  type="number" ng-model="milestone.percent" min="0" max="100" step="1"  ng-change='changePercent(milestone.percent, milestone.index)' />
+									<input ng-if="milestone.last_flag" disabled type="text" ng-value="milestone.percent" min="0" max="100" step="1" />
+								</div>
+								<div class="milestone-action">
+									<div ng-if="milestone.last_flag == false" class="close-milestone" ng-click="removeMilestone(milestone.index)" title="Remove milestone"></div>
+									<div class="add-milestone" ng-click="addMilestone(milestone.index)" title="Insert milestone before this one"></div>
+								</div>
+							</div>
+						</div>
+					</div><!-- full-width -->
+
+					<div class='full-width clearfix'>
+						<input type="button" value="Submit Quote" class='submit-milestone-btn'/>
+					</div>
+					<div style="height: 100px; postion: relative;">
+					</div>
+				</div><!-- project-content !-->
+			</div><!-- project-header !-->
+		</div><!-- body-panel !-->
+	</div><!-- full-width !-->
+
+</div>

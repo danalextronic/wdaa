@@ -1,0 +1,27 @@
+[2016/02/12 12:01:54] array (
+  'first_name' => 'ewr',
+  'last_name' => 'rwewer',
+  'email' => 'ewrwer@gmail.com',
+  'password' => 'ewrwer',
+  'sex' => 'erwwe',
+  'birthday' => 'werwe',
+  'phone_number' => 'ewrwer',
+)
+[2016/02/12 02:34:13] array (
+  'first_name' => 'Yuri',
+  'last_name' => 'Denisov',
+  'email' => 'yuri.deniosv.126@gmail.com',
+  'password' => 'star123',
+  'sex' => 'male',
+  'birthday' => '23124',
+  'phone_number' => '34234234',
+)
+[2016/02/12 03:36:55] array (
+  'first_name' => 'Yuri',
+  'last_name' => 'Len',
+  'email' => 'yuri.len.126@gmail.com',
+  'password' => 'star',
+  'sex' => 'male',
+  'birthday' => '30',
+  'phone_number' => '94093248',
+)

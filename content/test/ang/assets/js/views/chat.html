@@ -1,0 +1,151 @@
+<div class='header-container' ng-include src="'assets/js/views/header.html'"></div>
+<div class="main-container sh-container">
+	<div class="project-link">
+		<span>Projects > Nadav's bday</span>
+	</div>
+	<div class="full-width">
+		<img src="assets/img/avata.png" class="avata-img"/>
+		<div class="left-panel left-menu float-left">
+			<ul>
+				<li>
+					<a href="#/propose" title="Project Details"><img src="assets/img/propose.png"/></a>
+				</li>
+				<li>
+					<a href="#/media" title="Media"><img src="assets/img/media.png"/></a>
+				</li>
+				<li>
+					<a href="#/chat" title="Feed"><img src="assets/img/chat_active.png"/></a>
+				</li>
+				<li>
+					<a href="#/collabo" title="Collaborators"><img src="assets/img/collabo.png"/></a>
+				</li>
+			</ul>
+		</div>
+		<div class="body-panel float-left">
+			<div class="project-header">
+				<div class="project-title">
+					<div class="float-left">
+						<img src="assets/img/clock.png"/>
+						<span>Project: Nadav's Birthday</span>
+					</div>
+					<div class="float-right">
+						<ul class="user-lists">
+							<li ng-repeat="user in user_show_list">
+								<img class="user-img"  ng-attr-title="{{getNameFromEmail(user.Name)}}" ng-src="{{user.picture}}"/>
+							</li>
+							<li>
+								<span class="user-more" ng-attr-title="{{user_hide_string}}">...more</span>
+							</li>
+						</ul>
+						<div class="mobile-menu-img" ng-click="mobile_menu = !mobile_menu">
+						</div>
+						<ul class='mobile-menu-ul' ng-style="(mobile_menu == true) &amp;&amp; {'height': '104px' } || (mobile_menu == false) &amp;&amp; {'height': '0px'}">
+							<li>
+								<a href="#/propose">Propose</a>
+							</li>
+							<li>
+								<a href="#/media">Media</a>
+							</li>
+							<li>
+								<a href="#/chat">Chat</a>
+							</li>
+							<li>
+								<a href="#/collabo">Collabo</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- project-title !-->
+				<div class="project-desc">
+					<img src="assets/img/i.png"/>
+					<span>Posted to Arik Diamant, <u><i>Complete Project</i></u></span>
+				</div><!-- project-desc !-->
+				<div class="project-content">
+					<div class="full-width">
+						<div class='input-proect'>
+							<div class="input-textarea">
+								<textarea class="message-tarea" placeholder="Hello Arik, you can write a message right here" ng-model="chat_text"></textarea>
+
+							</div>
+							<div class="send-message-area clearfix">
+								<div class="link-icon" >
+									<input class="file-upload" type="file"   onchange="angular.element(this).scope().getFileName(this)" >
+								</div>
+
+								<div class="link-content" ng-if="file_path != ''">
+									<span>{{file_path}}</span>
+									<img src="assets/img/close.png" ng-click="removeUploadFile()"/>
+								</div>
+								<input type="button" class="float-right send-btn" value="send" ng-click="addChatContent()"/>
+							</div>
+						</div><!-- input-project !-->
+
+						<div class="message-area clearfix" ng-repeat='message in messages' ng-style="{'opacity':message.opacity}" >
+							<div class="message-div">
+								<img class="message-user-avata" ng-src="assets/img/user.png" title='Arik' />
+								<div class="message-content" ng-bind-html="message.message">
+								</div>
+							</div>
+							<div class="message-date">{{convertTime(message.time)}}</div>
+						</div>
+
+						<div class="project-area clearfix">
+							<div class="message-area clearfix">
+								<div class="message-div">
+									<img class="message-user-avata" src="assets/img/user.png"/>
+									<div class="message-content">
+										Arik: Now I'm going to add a collaborator: Yuval.
+									</div>
+								</div>
+								<div class="message-date">Sep 19th @ 19:30</div>
+							</div>
+							<div class="message-div sub-message-div clearfix">
+								<div class="full-width">
+									<img class='float-left' src="assets/img/image.png"/>
+									<div class="sub-message-area float-right">
+										<div class="sub-message-header">
+											Nadav's Birthday final - mp4
+										</div>
+										<div class="sub-message-content">
+											<div class="message-time">00:05</div>
+											<div class="message-data">
+												Arik Diamant This is a great opening scene.
+											</div>
+										</div>
+										<div class="sub-message-content">
+											<div class="message-time">00:05</div>
+											<div class="message-data">
+												It's not very clear what's happening in this shot
+											</div>
+										</div>
+										<div class="sub-message-content">
+											<div class="message-time">00:05</div>
+											<div class="message-data">
+												This cartoon explosion is good but I don't like the music that goes with it.
+											</div>
+										</div>
+										<div class="sub-more-message">
+											<a>See More Annonations >></a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- project-area !-->
+
+
+
+					</div><!-- full-width !-->
+					<div class="full-width more-message">
+						<div class="col-sm-4">
+						</div>
+						<div class="col-sm-4" ng-click="loadMoreMessage()">
+							<img src="assets/img/more.png"/>
+							<span>Load More Messages</span>
+						</div>
+						<div class="col-sm-4">
+						</div>
+					</div><!-- full-width -->
+				</div><!-- project-content !-->
+			</div><!-- project-header !-->
+		</div><!-- body-panel !-->
+	</div><!-- full-width !-->
+</div>

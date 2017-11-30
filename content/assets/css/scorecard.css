@@ -1,0 +1,178 @@
+#sticky_wrapper {
+    position:relative;
+}
+
+#sticky_wrapper .attached {
+    position: fixed !important;
+    top:0 !important;
+    width:920px;
+}
+
+#sticky {
+    margin:auto;
+    z-index:53;
+    position:relative;
+    z-index:10;
+}
+
+.sticky-toggle {
+	position:absolute;
+	top:0;
+	right:10px;
+}
+
+.marker-wrapper {
+    display:table;
+    width:100%;
+}
+
+.marker-row {
+    display:table-row;
+}
+
+.marker-row:not(:first-child) {
+    border-top:1px dotted #CCC;
+}
+
+.marker-left {
+    display:table-cell;
+    width:20%;
+    font-weight:bold;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.marker-right {
+    display:table-cell;
+    padding-left:15px;
+    vertical-align: middle;
+}
+
+.directive_ideas {
+    font-size:0.9em;
+    line-height:1.1em;
+    border:1px solid #CECECE;
+    background:#F5F5F5;
+    padding:3px;
+    margin:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+}
+
+.sc-drop {
+    width:70px;
+}
+
+.saved-message {
+    margin-top:15px;
+}
+
+#manual_score {
+    text-align: right;
+}
+
+/** RANKED SCORECARDS STYLES **/
+#single-scorecard {
+    display:none;
+}
+
+#single-scorecard .video-player {
+    border-right:1px solid #CCC;
+}
+
+#single-scorecard .global-comment {
+    height:200px;
+}
+
+#ranked-items {
+    border-top:1px solid #CCC;
+    padding-top:15px;
+}
+
+#ranked-items li {
+    list-style-type: none;
+}
+
+#ranked-items .thumbnail {
+    border:none;
+    cursor:move;
+    background-color:transparent;
+    position:relative;
+}
+
+#ranked-items .ui-sortable-helper .thumbnail {
+    background-color:white;
+}
+
+#ranked-items .thumbnail img {
+    border:1px solid #CCC;
+}
+
+#ranked-items .ranked-position {
+    position: absolute;
+    background-color: white;
+    padding: 4px 6px;
+    font-size: 16px;
+}
+
+#ranked-items .completed {
+    position: absolute;
+    right: 4px;
+    background: url(../images/tick.png) no-repeat;
+    width: 22px;
+    height: 20px;
+    background-color: white;
+}
+
+.rank-listing .rank-number {
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+    display:inline-block;
+    font: 32px Arial, sans-serif;
+    margin-right:15px;
+}
+
+.rank-listing .display-comment {
+    cursor:pointer;
+}
+
+.rank-listing .comment {
+    margin: 20px 0 0 25px;
+}
+
+@media(max-width: 1199px) {
+    #sticky_wrapper .attached {
+        width:751px;
+    }
+}
+
+@media(max-width: 991px) {
+    #sticky_wrapper .attached {
+        width:690px;
+    }
+
+    #single-scorecard .global-comment {
+        height:170px;
+    }
+}
+
+@media(max-width: 769px) {
+    #single-scorecard .video-player {
+        border-right:none;
+        border-bottom:1px solid #CCC;
+        padding-bottom:15px;
+        margin-bottom:10px;
+    }
+}
+
+@media(max-width: 767px) {
+    #sticky_wrapper .attached {
+        width:660px;
+    }
+}

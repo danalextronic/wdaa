@@ -1,0 +1,1129 @@
+[
+    {
+        "type":"folder",
+        "children":[
+            {
+                "type":"folder",
+                "children":[
+                    {
+                        "type":"tour",
+                        "title": "Title1",
+                        "subtitle": "Landmhe Sphenoid Bone he Sphenoid Bone",
+                        "description": "Test descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        } 
+                    },
+                    {
+                        "type":"tour",
+                        "title": "Title2",
+                        "subtitle": "Listen, watch, read, and visualize with a detailed 3D body model – Lessons get to the heart of a topic and let you learn your way.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "name": "heart"
+            },
+            {
+                "type": "folder",
+                "children":[
+                    {
+                        "type":"tour",
+                        "title": "Title3",
+                        "subtitle": "Check your body part knowledge through quick quizzes, like multiple choice or name the body part.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "type":"tour",
+                        "title": "Title4",
+                        "subtitle": "Create your own study materials by pulling information from existing content or adding your own [Coming Soon]",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "name": "bone"
+            },
+            {
+                "type":"folder",
+                "name":"skeleton",
+                "children":[
+                    {
+                        "type":"tour",
+                        "title": "Title5",
+                        "subtitle": "Use the 3D human body model to enhance your lectures.",
+                        "description": "Test descriptioTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionn",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title6",
+                        "subtitle": "Replace the entire text book or use the engaging lessons as supplementary resources aligned to your Anatomy and Physiology curricula.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title4",
+                        "subtitle": "Assign lessons and quizzes, track progress, and have results available in your LMS. [Coming Soon]",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title3",
+                        "subtitle": "Create and edit your own lessons [Coming Soon]",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    }                        
+                ]
+            }
+        ],
+        "name":"migrain"
+    },
+    {
+        "type":"folder",
+        "children":[
+            {
+                "type":"folder",
+                "children":[
+                    {
+                        "type":"tour",
+                        "title": "Title1",
+                        "subtitle": "Provide this cutting edge tools for instructor lectures and students homework assignments.",
+                        "description": "Test descriptTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionTest descriptionion",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title4",
+                        "subtitle": "Create your own lessons for specialized, consistent content across your instructors ",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title6",
+                        "subtitle": "Sell your content for use by other schools providing income back to your school. [Coming Soon]",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title3",
+                        "subtitle": "Connect VidaBody with your LMS to see student progress and quiz results. [Coming Soon]",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title1",
+                        "subtitle": "Purchase for multiple classes or departments to receive higher discounts.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title1",
+                        "subtitle": "Landmarks of the Sphenoid Bone Landmarks of the Sphenoid Bone Landmarks of the Sphenoid Bone Landmarks of the Sphenoid Bone Landmarks of the Sphenoid Bone",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title2",
+                        "subtitle": "Create your own lessons in a few clicks. Customize existing ones (coming soon)",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title6",
+                        "subtitle": "Learn about the human body in a very engaging way, like never before.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "name":"lymphatic"
+            },
+            {
+                "type":"folder",
+                "name":"endocrine",
+                "children":[
+                    {
+                        "type":"tour",
+                        "title": "Title6",
+                        "subtitle": "You can use VidaBody to conduct your lectures and assign to students or classes.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title3",
+                        "subtitle": "Track your students’ progress one by one or by class. Know who did what. No more midterm surprises",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title5",
+                        "subtitle": "Anatomy and Physiology come to life as you zoom in and rotate the 3D body.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    },
+
+                    {
+                        "type":"tour",
+                        "title": "Title3",
+                        "subtitle": "VidaBody has a set of engaging lessons that align to Anatomy and Physiology curricula.",
+                        "description": "Test description",
+                        "author_name": "John",
+                        "author_desc": "test author",
+                        "tour_data": {
+                            "slides": [
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test1.png"
+                                },
+                                {
+                                    "img_path": "images/heart1.png"
+                                },
+                                {
+                                    "img_path": "images/heart2.png"
+                                },
+                                {
+                                    "img_path": "images/bone1.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                },
+                                {
+                                    "img_path": "images/test.png"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "name":"circulatory"
+    },
+    {
+        "type":"folder",
+        "name":"muscle",
+        "children":[
+            {
+                "type":"tour",
+                "title": "Title2",
+                "subtitle": "FREE skeleton assembly game, now in the iTunes store and Google Play! Bone Genius teaches the name and locations of all the bones in the skeleton, as well as the bony landmarks needed by college anatomy students.",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title1",
+                "subtitle": "FREE anatomy game, coming soon to the iTunes and Google Play stores! Learn the names and pronunciations of hundreds of anatomical parts, then test your knowledge in a 3D",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title6",
+                "subtitle": "Pulse of Apps says: “Bone Genius will allow easy movement of the finger to turn tedious cramming into an interesting game.”",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title5",
+                "subtitle": "Vida featured in local ABC story about the Fogarty Institute (look for us at 2:00!)",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title5",
+                "subtitle": "Vida graphics in promotional video for online Stanford class",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title4",
+                "subtitle": "We combine curriculum and teaching tools with the power of games, for intuitive and immersive science learning.",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title3",
+                "subtitle": "May 16 2012: our first board meeting at the Fogarty Institute. We were an infant company, so excited to be out of the work-from-the-living-room phase, and into a real office, a real incubator",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title2",
+                "subtitle": "We are headed to Scottsdale this week as part of an awesome program called HighTide. HighTide is a startup competition put on by ",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title3",
+                "subtitle": "We are happy to announce the release of Bone Genius for the Android platform! It’s free and can be found in the Google Play store. ",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/heart2.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title5",
+                "subtitle": " (Get it here!)   Back in May, appPicker reviewed our iOS version and here’s what they had to say: “In this app you will...",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        }
+                    ]
+                }
+            },
+
+            {
+                "type":"tour",
+                "title": "Title4",
+                "subtitle": "Join our mailing list for announcements, updates, promotions and more! We won’t share your information or spam you, we promise!",
+                "description": "Test description",
+                "author_name": "John",
+                "author_desc": "test author",
+                "tour_data": {
+                    "slides": [
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/test1.png"
+                        },
+                        {
+                            "img_path": "images/bone1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        },
+                        {
+                            "img_path": "images/bone2.png"
+                        },
+                        {
+                            "img_path": "images/heart1.png"
+                        },
+                        {
+                            "img_path": "images/test.png"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,71 @@
+.admin-content {
+	border-left:1px solid #CCC;
+	min-height:650px;
+}
+
+.admin-sidebar .nav-toggle {
+	margin-left:15px;
+	display:none;
+}
+
+.admin-sidebar .no-toggle {
+	color:#000;
+	text-decoration: none;
+}
+
+.admin-sidebar .no-toggle:hover {
+	background-color:inherit;
+}
+
+.admin-sidebar .nav-toggle.open {
+	display:block;
+}
+
+.admin-sidebar .nav > li > a {
+	font-size:18px;
+}
+
+.admin-sidebar .nav > li > .open {
+	border-left:1px solid #CCC;
+}
+
+/**
+ * Scorecard Styles
+ */
+.row-controls div {
+	 display:inline;
+	 margin-right:20px;
+}
+
+.markers input {
+	 display:inline;
+}
+
+.sc-header {
+	font-weight:bold;
+}
+
+/**
+ * Template Video Selector
+ */
+
+.template-videos .row:not(:last-child) {
+	border-bottom: 1px solid #CCC;
+	margin-bottom: 20px;
+}
+
+.template-videos .thumbnail {
+	border:none;
+}
+
+@media(max-width:768px) {
+	.admin-content {
+		border-left:none;
+		border-top:1px solid #CCC;
+		padding-top:15px;
+	}
+
+	.admin-sidebar .nav-toggle > li {
+		float:none;
+	}
+}

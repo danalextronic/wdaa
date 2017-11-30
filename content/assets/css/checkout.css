@@ -1,0 +1,98 @@
+.remove-coupon {
+	margin-top:15px;
+}
+
+.coupon-item:not(:last-child) {
+	border-bottom:1px solid #CCC;
+	padding-bottom:10px;
+}
+
+.prices {
+	font-size:24px;
+}
+
+.strike-out {
+	text-decoration: line-through;
+	opacity:0.5;
+}
+
+.cardInformation {
+    border-left:1px solid #DDD;
+}
+
+.cards {
+    list-style-type: none;
+    margin-top:25px;
+}
+
+.cards li {
+    -webkit-transition:all 0.2s;
+    -moz-transition:all 0.2s;
+    -ms-transition:all 0.2s;
+    -o-transition:all 0.2s;
+    transition:all 0.2s;
+    background-image:url(../images/card_logos.png);
+    background-position:0 0;
+    float:left;
+    height:32px;
+    margin-right:8px;
+    text-indent:-9999px;
+    width:51px;
+}
+
+.cards li:last-child {
+    margin-right:0;
+}
+
+.cards .mastercard {
+    background-position:204px 0;
+}
+
+.cards .visa {
+    background-position:153px 0;
+}
+
+.cards .discover {
+    background-position:102px 0;
+}
+
+.cards .amex {
+    background-position:51px 0;
+}
+
+.cards .mastercard.off {
+    background-position:204px 32px;
+}
+
+.cards .visa.off {
+    background-position:153px 32px;
+}
+
+.cards .discover.off {
+    background-position:102px 32px;
+}
+
+.cards .amex.off {
+    background-position:51px 32px;
+}
+
+@media(max-width:769px) {
+    .cardInformation {
+        border-left:none;
+        border-top:1px solid #DDD;
+    }
+
+    .cards {
+        width:350px;
+        margin:auto;
+        padding-top:20px;
+    }
+}
+
+/*@media(max-width:344px) {
+	.cards li {
+		float: none;
+		margin-bottom: 15px;
+		margin-left: 25%;
+	}
+}*/

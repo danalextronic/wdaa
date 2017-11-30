@@ -1,0 +1,127 @@
+<div class='header-container' ng-include src="'assets/js/views/header.html'"></div>
+<div class="main-container sh-container">
+	<div class="project-link">
+		<span>Projects > Nadav's bday</span>
+	</div>
+	<div class="full-width">
+		<img src="assets/img/avata.png" class="avata-img"/>
+		<div class="left-panel left-menu float-left">
+			<ul>
+				<li>
+					<a href="#/propose" title="Project Details"><img src="assets/img/propose.png"/></a>
+				</li>
+				<li>
+					<a href="#/media" title="Media"><img src="assets/img/media.png"/></a>
+				</li>
+				<li>
+					<a href="#/chat" title="Feed"><img src="assets/img/chat.png"/></a>
+				</li>
+				<li>
+					<a href="#/collabo" title="Collaborators"><img src="assets/img/collabo_active.png"/></a>
+				</li>
+			</ul>
+		</div>
+		<div class="body-panel float-left">
+			<div class="project-header">
+				<div class="project-title">
+					<div class="float-left">
+						<img src="assets/img/clock.png"/>
+						<span>Project: Nadav's Birthday</span>
+					</div>
+					<div class="float-right">
+						<ul class="user-lists">
+							<li ng-repeat="user in user_show_list">
+								<img class="user-img"  ng-attr-title="{{getNameFromEmail(user.Name)}}" ng-src="{{user.picture}}"/>
+							</li>
+							<li>
+								<span class="user-more" ng-attr-title="{{user_hide_string}}">...more</span>
+							</li>
+						</ul>
+						<div class="mobile-menu-img" ng-click="mobile_menu = !mobile_menu">
+						</div>
+						<ul class='mobile-menu-ul' ng-style="(mobile_menu == true) &amp;&amp; {'height': '104px' } || (mobile_menu == false) &amp;&amp; {'height': '0px'}">
+							<li>
+								<a href="#/propose">Propose</a>
+							</li>
+							<li>
+								<a href="#/media">Media</a>
+							</li>
+							<li>
+								<a href="#/chat">Chat</a>
+							</li>
+							<li>
+								<a href="#/collabo">Collabo</a>
+							</li>
+						</ul>
+					</div>
+				</div><!-- project-title !-->
+				<div class="project-desc">
+					<img src="assets/img/i.png"/>
+					<span>Posted to Arik Diamant, <u><i>Complete Project</i></u></span>
+				</div><!-- project-desc !-->
+				<div class="project-content">
+					<div class="full-width">
+						<div class="col-half mobile-col-half">
+							<div class="add-collaborator-div full-width clearfix">
+								<input type="text" ng-model="collab_email"  class="add-collaborator-txt" placeholder="Invite collaborators by entering email address here">
+								<input type="button" class="add-collaborator-btn" value="Add" ng-click="addCollab()">
+							</div>
+							<p class="collaborator-desc">
+								Collaborators will be able to view project chat and media and annotate media
+							</p>
+						</div>
+					</div>
+					<div class="full-width clearfix collaborator-area">
+						<div class="full-width clearfix collaborator-heder">
+							<div class="collabor-user">
+								Collaborators
+							</div>
+							<div class="media-option">
+								Project Media
+							</div>
+							<div class="project-feed">
+								Project Feed
+							</div>
+							<div class="project-milestone">
+								Project Milestones
+							</div>
+							<div class="collabor-action">
+							</div>
+						</div>
+						<div class="full-width clearfix collaborator-content" ng-repeat="collab in collab_list">
+							<div class="collabor-user">
+								<img class='collabor-avata' src="assets/img/none.png" >
+								<div class="collabor-name">{{getNameFromEmail(collab.Name)}}</div>
+							</div>
+							<div class="media-option">
+								<select>
+									<option value="view">View</option>
+									<option value="edit">Edit</option>
+									<option value="no_access">No Access</option>
+								</select>
+							</div>
+							<div class="project-feed">
+								<select>
+									<option value="view">View</option>
+									<option value="edit">Edit</option>
+									<option value="no_access">No Access</option>
+								</select>
+							</div>
+							<div class='project-milestone'>
+								<select>
+									<option value="view">View</option>
+									<option value="edit">Edit</option>
+									<option value="no_access">No Access</option>
+								</select>
+							</div>
+							<div class='collabor-action'>
+								<div class="close-img" ng-click="removeCollab(collab.index)"></div>
+								<div class="go-img"></div>
+							</div>
+						</div>
+					</div>
+				</div><!-- project-content !-->
+			</div><!-- project-header !-->
+		</div><!-- body-panel !-->
+	</div><!-- full-width !-->
+</div>

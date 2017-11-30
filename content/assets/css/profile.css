@@ -1,0 +1,30 @@
+.profile-content {
+	min-height:800px;
+	border-left:1px solid #CCC;
+}
+
+.billing-total {
+	font-size:16px;
+	font-weight:bold;
+}
+
+.scorecard-tabs,
+.scorecard-list-wrapper {
+	padding-top:20px;
+}
+
+.scorecard-list-wrapper th:not(:last-of-type),
+.scorecard-list-wrapper td:not(:last-of-type) {
+	border-right:1px solid #CCC;
+}
+
+@media(max-width:769px) {
+	.profile-content {
+		border-left:none;
+		border-top:1px solid #CCC;
+	}
+
+	.profile-content, .profile-sidebar {
+		z-index:-1; /* avoids overlap with dropdown header navigation */
+	}
+}

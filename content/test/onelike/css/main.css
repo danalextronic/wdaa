@@ -1,0 +1,164 @@
+@font-face { font-family: HelveticalNeueLTCom; src: url('HelveticaNeueLTCom-BdCn.ttf'); } 
+
+.full-width{
+	position: relative;
+	width: 100%;
+}
+
+.ne-container{
+	width: 864px;
+	position: relative;
+	margin:0px auto;
+}
+
+.header{
+	min-height: 1px;
+	background: #fcb040;
+	padding: 47px 0px 50px;
+}
+
+.rfb-logo{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 70px;
+}
+
+.rfb-title{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	font-family: HelveticalNeueLTCom, sans-serif; 
+	text-align: left;
+}
+
+.header .ne-container .row > div{
+	text-align: center;
+}
+
+.top-title{
+	font-size: 36px;
+	margin:0px;
+	color: white;
+	line-height: 30px;
+	margin-bottom: 6px;
+}
+
+.middle-title{
+	margin: 0px;
+	font-size: 63px;
+	line-height: 50px;
+}
+
+.middle-title span{
+	font-size: 34px;
+	position: relative;
+	top: -22px;
+}
+
+.bottom-title > div, .bottom-title > img{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.bottom-title .to-the{
+	font-size: 22px;
+	color: white;
+	margin-right: 21px;
+}
+
+.bottom-title img{
+	margin-right: 19px;
+	width: 78px;
+}
+
+.bottom-title .regina-title{
+	font-size: 19px;
+	line-height: 19px;
+}
+
+.bottom-title .foodback-title{
+	font-size: 42px;
+	line-height: 35px;
+}
+
+.border-line{
+	background: #fcb040;
+	margin-top: 6px;
+	height: 5px;
+}
+
+.content-desc{
+	color: #515151;
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.content-desc h2{
+	font-size: 23px;
+	margin:0px;
+}
+
+.content-desc h1{
+	font-size: 30px;
+	margin: 8px 0px 40px 0px;
+}
+
+.content-desc-border{
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(left, #ffffff 0%, #aaaaaa 14%, #aaaaaa 50%, #aaaaaa 86%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#ffffff), color-stop(14%,#aaaaaa), color-stop(50%,#aaaaaa), color-stop(86%,#aaaaaa), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left, #ffffff 0%,#aaaaaa 14%,#aaaaaa 50%,#aaaaaa 86%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left, #ffffff 0%,#aaaaaa 14%,#aaaaaa 50%,#aaaaaa 86%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left, #ffffff 0%,#aaaaaa 14%,#aaaaaa 50%,#aaaaaa 86%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to right, #ffffff 0%,#aaaaaa 14%,#aaaaaa 50%,#aaaaaa 86%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */	height: 1px;
+	width: 50%;
+	margin: 0px auto;
+}
+
+.content-items > div{
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+.content-item{
+	width: 100%;
+	max-width: 173px;
+	display: block;
+	margin: 0px auto 30px;
+}
+
+
+.content-item-like{
+	max-width: 66px;
+	width: 33.33%;
+	height: auto;
+	position: relative;
+	display: block;
+	margin: 0px auto;
+}
+
+.footer-desc{
+	color: #9F9F9F;
+	font-size: 11px;
+	position: relative;
+	text-align: center;
+	padding-top: 25px;
+	width: calc(100% - 190px );
+	float: right;
+}
+
+.footer-logo{
+	position: relative;
+	width: 153px;
+	height: 94px;
+	float: left;
+	margin-right: 30px;
+}
+
+.footer{
+	margin-top: 85px;
+}

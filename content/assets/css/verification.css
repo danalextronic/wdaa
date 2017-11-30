@@ -1,0 +1,63 @@
+.verification-panel {
+	padding-bottom:0;
+}
+
+.verification-tabs {
+	border-bottom:none;
+	font-size:18px;
+}
+
+.verification-tabs li {
+	margin:0 15px;
+}
+
+.verification-tabs li.active a,
+.verification-tabs li.active a:hover,
+.verification-tabs li.active a:focus {
+	border-bottom:1px solid #DDD;
+}
+
+.scoring p {
+	display:inline-block;
+}
+
+.scoring .score, .scoring .divide {
+	font-size:18px;
+}
+
+.scoring .equals, .scoring .final-score {
+	font-size:24px;
+}
+
+.satisfaction-controls {
+	text-align: center;
+}
+
+.satisfaction-controls .radio-inline {
+	margin-right:20px;
+}
+
+.verification-list {
+	position:relative;
+}
+
+.verification-list .caption {
+	font-style:italic;
+	color:#999;
+}
+
+.verification-badge, .verified {
+	font-size:16px;
+}
+
+.verification-badge {
+	float:right;
+}
+
+.edit-comment {
+	margin-bottom:20px;
+}
+
+#loader {
+	margin-right:15px;
+}

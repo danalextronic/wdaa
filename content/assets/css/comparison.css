@@ -1,0 +1,13 @@
+.final-score {
+	font-size:32px;
+}
+
+.compare-submit {
+	width:350px;
+	margin:20px auto;
+}
+
+.compare-submit .btn {
+	padding:10px;
+	font-size:24px;
+}

@@ -1,0 +1,13 @@
+{
+  "token": "42_5rsxrk74xyae20vgmzno",
+  "response": {
+    "retCode": 2,
+    "user": {
+      "ID": "46",
+      "Name": "editor2",
+      "Email": "editor2@videocutters.com",
+      "code": "mk5ey41aagz9bjl99uxa5y3070xgkpn448be32dz"
+    }
+  },
+  "process_time": 0.0162291526794
+}
